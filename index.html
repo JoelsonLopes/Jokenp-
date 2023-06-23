@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto JokenPô</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>JokenPô</h1>
+      <divc class="buttons">
+        <button id="rock" onclick="playHuman('rock')">&#128074;</button>
+        <button id="papper" onclick="playHuman('papper')">&#9995;</button>
+        <button id="scissors" onclick="playHuman('scissors')">&#9996;</button>
+      </divc>
+      <p class="result"></p>
+      <p class="your-score">Sua pontuação: <span id="human-score">0</span></p>
+      <p class="machine-score">
+        Pontuação da maquina: <span id="machine-score">0</span>
+      </p>
+    </div>
+    <section>
+      <h1>Uma breve historia do Jokenpô:</h1>
+      <p class="section">
+        <strong>JOKENPÔ </strong> ou pedra, papel, tesoura é um jogo antigo, cujas origens
+        remontam à Dinastia Han chinesa, de 206 a.C. até 220 d.C. A primeira
+        menção desse jogo é encontrada em 'Wuzazu', um livro escrito pelo
+        escritor chinês da dinastia Ming Xie Zhaozhi.
+        <br>
+        <p class="section"> <strong> Regras básicas: </strong>dado um sinal, cada um dos jogadores apresenta um elemento. Pedra perde para papel (o papel embrulha a pedra); papel perde para tesoura (esta corta o primeiro); e, finalmente, a tesoura perde para a pedra, que quebra aquela. Nesse caso, a relação que introduzimos foi ganhar/perder.</p>
+      </p>
+    </section>
+  </body>
+  <script src="./script.js"></script>
+</html>
